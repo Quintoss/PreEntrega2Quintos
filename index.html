@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>F1</title>
+  </head>
+  <body>
+    <h1>Filtro equipos de Fórmula 1</h1>
+
+    <div class="filters">
+      <label for="text">Escuderia:</label>
+      <select id="titulos">
+        <option value="">Cualquiera</option>
+        <option value="Ferrari">Ferrari</option>
+        <option value="Alpine">Alpine</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="Red Bull">Red Bull</option>
+        <option value="Alpha Tauri">Alpha Tauri</option>
+        <option value="Mclaren">Mclaren</option>
+        <option value="Williams">Williams</option>
+        <option value="Aston Martin">Aston Martin</option>
+        <option value="Alfa Romeo">Alfa Romeo</option>
+        <option value="HAAS">HAAS</option>
+      </select>
+
+      <label for="pais">País:</label>
+      <select id="titulos">
+        <option value="">Cualquiera</option>
+        <option value="Alemania">Alemania</option>
+        <option value="Reino Unido">Reino Unido</option>
+        <option value="Italia">Italia</option>
+        <option value="EstadosUnidos">Estados Unidos</option>
+        <option value="Austria">Austria</option>
+      </select>
+
+      <label for="color">Color:</label>
+      <input type="text" />
+
+      <label for="motor">Motor:</label>
+      <select id="titulos">
+        <option value="">Cualquiera</option>
+        <option value="Ferrari">Ferrari</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="Renault">Renault</option>
+      </select>
+
+      <label for="campeonatos">Campeonatos:</label>
+      <select id="campeonatos">
+        <option value="">Cualquiera</option>
+        <option value="0">0</option>
+        <option value="2">2</option>
+        <option value="5">5</option>
+        <option value="8">8</option>
+        <option value="16">16</option>
+      </select>
+      <button>Filtrar</button>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

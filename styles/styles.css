@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
+input[type="text"],
+select {
+  margin: ;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
